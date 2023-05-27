@@ -62,7 +62,7 @@ h3 {
 
 .main-header {
     border-bottom: 1px solid var(--border-header-color);
-   
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .link {
     color: var(--title-text-color);
@@ -167,6 +167,7 @@ ul#auth-nav li {
 }
 /* main */
 .hero-page {
+    max-width: 1440px; 
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
     background-repeat: no-repeat;
@@ -175,6 +176,8 @@ ul#auth-nav li {
     color: var(--primary-white-color);
     text-align: center;
     padding: 188px 0;
+    margin: 0 auto;
+    
 }
 
 .hero-title {
@@ -323,7 +326,7 @@ ul#auth-nav li {
     
 }
 .team-soc-icon {
-    fill:var(--primary-white-color);
+    fill: var(--primary-white-color);
 }
 
 .team-soc-link:hover,
@@ -350,7 +353,8 @@ ul#auth-nav li {
 }
 
 .customer-icon {
-    fill:var(--border-box-color);
+    fill: var(--border-box-color);
+    fill: currentColor;
 }
 
 .customer-link {
@@ -361,6 +365,7 @@ ul#auth-nav li {
     justify-content: center;
     border: 1px solid var(--border-box-color);
     border-radius: 4px;
+    color: var(--border-box-color);
     
         
 }
@@ -411,12 +416,17 @@ ul#auth-nav li {
 .footer-content {
     margin-right: 120px;
 }
+.footer-text-media {
+    font-weight: 500;
+    color: var(--primary-white-color);
+    margin-bottom: 16px;
+}
 .team-soc-list-footer {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     display: flex;
     align-items: center;
-    margin-top: 16px;
+    
     
     
 }
@@ -432,7 +442,7 @@ ul#auth-nav li {
     
 }
 .team-soc-icon {
-    fill:var(--primary-white-color);
+    fill: var(--back-dark-color);
 }
 
 .team-soc-link-footer:hover,
@@ -443,6 +453,7 @@ ul#auth-nav li {
 /* Портфолио */
 .main-portfolio {
     padding: 96px 0 120px;
+    
 }
 .button-portfolio {
     background-color: var(--back-dark-color);
@@ -510,4 +521,11 @@ ul#auth-nav li {
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
+}
+.activities-link {
+    display: block;
+}
+.activities-link:hover,
+.activities-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
