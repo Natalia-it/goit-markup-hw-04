@@ -420,6 +420,8 @@ ul#auth-nav li {
     font-weight: 500;
     color: var(--primary-white-color);
     margin-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .team-soc-list-footer {
     display: flex;
